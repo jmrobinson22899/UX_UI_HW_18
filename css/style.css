@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300&family=Poppins&family=Slabo+27px&display=swap');
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+:root {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+h1 {
+    line-height: 1.1;
+    margin: 0;
+    font-family:'Hind Siliguri', sans-serif;
+}
+
+  .flex-container {
+    display: flex;
+    background-color: lightgray;
+  }
+  
+  .flex-container > div {
+    background-color: #f1f1f1;
+    width: fit-content;
+    margin: 5px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 10px;
+  }
+
+  .nav {
+    background-color: lightgray;
+    list-style-type: none;
+    text-align: center; 
+    padding: 0;
+    margin: 0;
+  }
+  
+  .nav li {
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;
+  }
+
+section {
+    display:grid ;
+}
+
+footer {
+    background-color: lightgray;
+    text-align: center;
+    padding: 10px;
+  }
